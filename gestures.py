@@ -6,9 +6,8 @@ from comtypes import CLSCTX_ALL
 from pycaw.pycaw import AudioUtilities, IAudioEndpointVolume
 import pyautogui
 
-# =========================
+
 # Mediapipe setup
-# =========================
 mp_hands = mp.solutions.hands
 mp_draw = mp.solutions.drawing_utils
 hands = mp_hands.Hands(max_num_hands=1,
@@ -19,9 +18,8 @@ hands = mp_hands.Hands(max_num_hands=1,
 cap = cv2.VideoCapture(0)
 WIN = "Gesture Media Controller"
 
-# =========================
+
 # Volume setup
-# =========================
 devices = AudioUtilities.GetSpeakers()
 interface = devices.Activate(IAudioEndpointVolume._iid_, CLSCTX_ALL, None)
 vol = cast(interface, POINTER(IAudioEndpointVolume))
@@ -40,9 +38,8 @@ def volume_step(delta=0.05):
     set_vol_scalar(get_vol_scalar() + delta)
 
 
-# =========================
+
 # Media controls
-# =========================
 def media_play_pause():
     pyautogui.press("playpause")  # Windows
 
@@ -55,9 +52,8 @@ def media_prev():
     pyautogui.press("prevtrack")
 
 
-# =========================
+
 # Helpers
-# =========================
 def angle_between(p0, p1, p2):
     v1 = (p0[0] - p1[0], p0[1] - p1[1])
     v2 = (p2[0] - p1[0], p2[1] - p1[1])
@@ -70,9 +66,8 @@ def angle_between(p0, p1, p2):
     return math.degrees(math.acos(cosang))
 
 
-# =========================
+
 # Gesture variables
-# =========================
 ROT_STEP_DEG = 25
 VOL_STEP = 0.05
 ROT_DEAD_DEG = 5
