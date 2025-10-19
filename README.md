@@ -7,15 +7,15 @@ This project demonstrates how gesture recognition can be integrated into multime
 
 ## Features
 
-### Play/Pause Music using hand gestures
+#### Play/Pause Music using hand gestures
 
-### Next/Previous Track with simple swipe gestures
+#### Next/Previous Track with simple swipe gestures
 
-### Volume Control by adjusting hand positions
+#### Volume Control by adjusting hand positions
 
-### Real-Time Gesture Recognition using a webcam
+#### Real-Time Gesture Recognition using a webcam
 
-Supports For Applications
+####Supports For Applications
 
 ## Technology Stack
 
