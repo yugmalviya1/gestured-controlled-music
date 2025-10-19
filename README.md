@@ -15,7 +15,7 @@ This project demonstrates how gesture recognition can be integrated into multime
 
 #### Real-Time Gesture Recognition using a webcam
 
-####Supports For Applications
+#### Supports For Applications
 
 ## Technology Stack
 
