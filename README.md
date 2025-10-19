@@ -1,23 +1,23 @@
-Gesture-Controlled Music Player 🎵🖐️
-Overview
+# Gesture-Controlled Music Player 🎵🖐️
+## Overview
 
 The Gesture-Controlled Music Player is an innovative application that allows users to control music playback using hand gestures. By leveraging computer vision and machine learning, the system can recognize specific gestures to play, pause, skip tracks, or adjust volume — all without touching the keyboard or mouse.
 
 This project demonstrates how gesture recognition can be integrated into multimedia applications to create a seamless and interactive user experience.
 
-Features
+## Features
 
-Play/Pause Music using hand gestures
+### Play/Pause Music using hand gestures
 
-Next/Previous Track with simple swipe gestures
+### Next/Previous Track with simple swipe gestures
 
-Volume Control by adjusting hand positions
+### Volume Control by adjusting hand positions
 
-Real-Time Gesture Recognition using a webcam
+### Real-Time Gesture Recognition using a webcam
 
-Supports Popular Audio Formats (MP3, WAV, etc.)
+Supports For Applications
 
-Technology Stack
+## Technology Stack
 
 Programming Language: Python
 
